@@ -1,4 +1,4 @@
-package _5_decorator;
+package _3_decorator;
 
 public interface ITDepartment {
     String makeWebsite();

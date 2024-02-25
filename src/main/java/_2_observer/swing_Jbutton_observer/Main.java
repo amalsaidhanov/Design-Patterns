@@ -1,4 +1,4 @@
-package _4_Swing;
+package _2_observer.swing_Jbutton_observer;
 
 public class Main {
     public static void main(String[] args) {

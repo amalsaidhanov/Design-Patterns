@@ -1,4 +1,4 @@
-package _4_Swing;
+package _2_observer.swing_Jbutton_observer;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

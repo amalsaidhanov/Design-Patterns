@@ -1,4 +1,4 @@
-package _3_observer_API;
+package _2_observer.java_api_observer;
 
 import lombok.Getter;
 

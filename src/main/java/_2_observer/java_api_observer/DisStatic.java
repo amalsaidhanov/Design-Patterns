@@ -1,25 +1,25 @@
-package _3_observer_API;
+package _2_observer.java_api_observer;
+
 
 import java.util.Observable;
 import java.util.Observer;
 
-public class DisCurrent implements Observer {
+public class DisStatic implements Observer {
 
     private float temperature;
-    private float humidity;
     private float pressure;
 
     Observable observable;
 
-    public DisCurrent(Observable observable) {
+    public DisStatic(Observable observable) {
         this.observable = observable;
         observable.addObserver( this);
     }
 
 
     public void display() {
-        System.out.println("*********DISPLAYING CURRENT***********");
-        System.out.println(temperature + " " + humidity + " " + pressure);
+        System.out.println("*********DISPLAYING STATIC***********");
+        System.out.println(temperature + " " + pressure);
     }
 
     @Override
@@ -28,9 +28,9 @@ public class DisCurrent implements Observer {
             WeatherData weatherData = (WeatherData) obs;
             this.temperature = weatherData.getTemperature();
             this.pressure = weatherData.getPressure();
-            this.humidity = weatherData.getHumidity();
 
             display();
         }
     }
 }
+

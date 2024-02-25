@@ -1,7 +1,7 @@
-package _2_observer;
+package _2_observer.Interface_observer;
 
-import _2_observer.Interface.Observer;
-import _2_observer.Interface.Subject;
+import _2_observer.Interface_observer.Interface.Observer;
+import _2_observer.Interface_observer.Interface.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

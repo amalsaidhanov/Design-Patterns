@@ -1,4 +1,4 @@
-package _5_decorator;
+package _3_decorator;
 
 public class FrontendDeveloper extends DecoratorForITDev {
     public FrontendDeveloper(ITDepartment itDepartment) {
