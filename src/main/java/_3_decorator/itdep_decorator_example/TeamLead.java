@@ -1,4 +1,4 @@
-package _3_decorator;
+package _3_decorator.itdep_decorator_example;
 
 
 public class TeamLead extends DecoratorForITDev {
